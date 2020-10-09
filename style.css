@@ -1,0 +1,90 @@
+@font-face {
+    font-family: aileron;
+    src: url(Aileron-Regular.otf);
+  }
+
+*{
+    font-family: aileron;
+}
+
+.website-container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.slide{
+    width: 100%;
+    height: auto;
+}
+
+.contact-info{
+    position: absolute;
+    top: 40%;
+    left: 25%;
+    width: 50%;
+    height: 100px;
+    color: white;
+    z-index: 10;
+    background: rgb(15, 15, 15, 0.1);
+    text-align: center;
+}
+
+.name{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(173, 102, 10);
+    text-decoration: none;
+}
+
+img{
+    min-height: 100vh;
+    object-fit: cover;
+}
+
+.nav{
+   color: rgba(253, 4, 4);
+   font-size: 24px;
+   position: absolute; 
+   z-index: 1;
+   top: 10px;
+   right: 30px;
+   background: rgb(15, 15, 15, 0.6);
+   width: 300px;
+   height: 50px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 5px;
+}
+
+.modal-content{
+    background: rgb(15, 15, 15, 0.8);
+}
+
+.close-contact-btn-wrap{
+ background: black;
+ width: 30px;
+ height: 30px;
+}
+
+.close-contact-btn{
+    font-weight: 600;
+    font-size: 20px;
+}
+
+
+
+
+
+
